@@ -28,7 +28,7 @@ namespace AdamAsmaca
 
                 if (secilenKelime == string.Concat(gelenTahta))
                 {
-                    Console.WriteLine("\nOyun bitik");
+                    Console.WriteLine("\nOyun bitti");
                     break;
                 }
 

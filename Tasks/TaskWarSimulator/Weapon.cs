@@ -8,5 +8,40 @@ namespace TaskWarSimulator
 {
     class Weapon
     {
+        public int Damage { get; set; }
+        public string weaponName { get; set; }
     }
+
+    class Knife : Weapon
+    {
+        public Knife()
+        {
+            this.weaponName = "knife";
+            this.Damage = 11;
+        }
+    }
+
+    class Rifle : Weapon
+    {
+        public Rifle()
+        {
+            this.weaponName = "Rifle";
+            this.Damage = 15;
+        }
+
+    }
+
+    class LMG : Weapon
+    {
+        public LMG()
+        {
+            this.weaponName = "LMG";
+            this.Damage = 20;
+        }
+    }
+
+
+
+
+
 }
